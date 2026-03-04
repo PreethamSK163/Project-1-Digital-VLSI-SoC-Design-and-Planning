@@ -54,6 +54,8 @@
 |---|---|
 | Design | PicoRV32a RISC-V Processor |
 | Technology Node | 130nm (Sky130 PDK) |
+| Clock Period | 24.73 ns |
+| Clock Frequency | 40.44 MHz |
 | Total Cell Count | 17,108 |
 | Chip Area | 181,510.33 µm² |
 | Die Area | 731.18 × 741.90 µm |
