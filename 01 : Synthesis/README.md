@@ -1,5 +1,5 @@
 
-# 01 : Synthesis
+# RTL Synthesis & Technology Mapping
 > RTL to Gate-Level Netlist — PicoRV32a on Sky130 PDK
 
 ![Tool](https://img.shields.io/badge/Tool-Yosys-blue)
