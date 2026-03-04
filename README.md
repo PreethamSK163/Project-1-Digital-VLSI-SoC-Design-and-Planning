@@ -7,12 +7,11 @@
 ![Language](https://img.shields.io/badge/Language-Verilog%20HDL-purple)
 ![Program](https://img.shields.io/badge/Program-NASSCOM%20FutureSkills%20Prime-red)
 
-
 <h2>🔍 Overview</h2>
 
-Complete **RTL-to-GDSII** physical design implementation of the **PicoRV32a RISC-V processor** using the **OpenLANE** automated EDA flow on the **Google SkyWater 130nm (Sky130)** open-source PDK.
+- Complete **RTL-to-GDSII** physical design implementation of the **PicoRV32a RISC-V processor** using the **OpenLANE** automated EDA flow on the **Google SkyWater 130nm (Sky130)** open-source PDK.
 
-The project covers the full digital design flow from RTL synthesis through to fabrication-ready GDSII generation — including integration of a **custom-designed standard cell (sky130_vsdinv)**, timing closure via ECOs, and post-route parasitic extraction.
+- The project covers the full digital design flow from RTL synthesis through to fabrication-ready GDSII generation — including integration of a **custom-designed standard cell (sky130_vsdinv)**, timing closure via ECOs, and post-route parasitic extraction.
 
 <h2>🛠️ Tools & Technology Stack</h2>
 
