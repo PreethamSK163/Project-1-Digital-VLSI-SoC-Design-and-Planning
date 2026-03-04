@@ -9,7 +9,7 @@
 <h2>🔍 Overview</h2>
 
 - Executed `run_floorplan` to define die area, core utilisation, IO pin placement, and physical-only cell insertion — generating the floorplan DEF for the PicoRV32a design.
-- Verified floorplan configuration files, inspected the merged LEF, and performed visual validation of the physical layout in **Magic VLSI**.
+- Verified floorplan configuration files, inspected the merged LEF, performed visual validation of the physical layout in **Magic VLSI**, and revised IO pin placement modes using ioplacer.
 
 <h2>⚙️ Tasks Covered</h2>
 
@@ -18,6 +18,7 @@
 | Floorplan Execution | Die/core area, utilisation factor, IO placement, tap/decap insertion |
 | Configuration Review | config.tcl, sky130 library paths, merged LEF verification |
 | Magic Visualisation | Floorplan DEF loaded in Magic — rows, pins, metal layers verified |
+| IO Placer Revision | IO pin placement mode revised and verified post-modification |
 
 <h2>📊 Key Observations</h2>
 
@@ -27,6 +28,7 @@
 | Utilisation Factor | 35% — routing congestion headroom maintained |
 | IO Pin Placement | Distributed along die boundary — met2/met3 layers |
 | Physical Cells Inserted | Tap cells, decoupling capacitors |
+| IO Placer Mode | Revised pin distribution mode verified post-change |
 | Output | picorv32a.floorplan.def |
 
 <h2>📝 Stage Details</h2>
@@ -42,6 +44,10 @@ Reviewed design configuration hierarchy — `config.tcl` and `sky130_fd_sc_hd_co
 **Task 3 — Floorplan Visualisation in Magic** &nbsp;|&nbsp; `Magic VLSI` `DEF`
 
 Floorplan DEF loaded into Magic. Die and core boundaries visually verified. Standard cell rows confirmed horizontally aligned. IO pins verified along die boundary with correct spacing. Tap cells and decap cells confirmed present. Metal layer assignments validated — horizontal pins on met2, vertical on met3.
+
+**Task 4 — IO Placer Revision** &nbsp;|&nbsp; `ioplacer` `FP_IO_MODE`
+
+IO pin placement mode revised by modifying `FP_IO_MODE` configuration parameter. Floorplan re-executed with updated settings — pin distribution pattern changed and verified in Magic. Confirmed that ioplacer correctly applied the revised mode without affecting core area or standard cell rows.
 
 <h2>🖼️ Implementation Results</h2>
 
@@ -77,6 +83,18 @@ Floorplan DEF loaded into Magic. Die and core boundaries visually verified. Stan
 ![Magic 4](3_Review_floorplan_layout_in_magic_4.png)
 ![Magic 5](3_Review_floorplan_layout_in_magic_5.png)
 ![Magic 6](3_Review_floorplan_layout_in_magic_6.png)
+
+### IO Placer Revision
+![IO 1](4_IO_Placer revision_1.png)
+![IO 2](4_IO_Placer revision_2.png)
+![IO 3](4_IO_Placer revision_3.png)
+![IO 4](4_IO_Placer revision_4.png)
+![IO 5](4_IO_Placer revision_5.png)
+![IO 6](4_IO_Placer revision_6.png)
+![IO 7](4_IO_Placer revision_7.png)
+![IO 8](4_IO_Placer revision_8.png)
+![IO 9](4_IO_Placer revision_9.png)
+![IO 10](4_IO_Placer revision_10.png)
 
 <h2>🔗 Navigation</h2>
 
