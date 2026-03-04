@@ -42,11 +42,11 @@ OpenDP performed detailed placement — all cells snapped to legal site row coor
 <h2>🖼️ Implementation Results</h2>
 
 ### Congestion-Aware Placement
-![Placement 1](4_Congestion_aware_placement_using_RePIAce_1.png)
-![Placement 2](4_Congestion_aware_placement_using_RePIAce_2.png)
-![Placement 3](4_Congestion_aware_placement_using_RePIAce_3.png)
-![Placement 4](4_Congestion_aware_placement_using_RePIAce_4.png)
-![Placement 5](4_Congestion_aware_placement_using_RePIAce_5.png)
+![Placement 1](1_Congestion_aware_placement_using_RePIAce_1.png)
+![Placement 2](1_Congestion_aware_placement_using_RePIAce_2.png)
+![Placement 3](1_Congestion_aware_placement_using_RePIAce_3.png)
+![Placement 4](1_Congestion_aware_placement_using_RePIAce_4.png)
+![Placement 5](1_Congestion_aware_placement_using_RePIAce_5.png)
 
 <h2>🔗 Navigation</h2>
 
